@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.cjs",
     "dev": "nodemon index.cjs",
-    "build": "npm install && node index.cjs",
+    "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
