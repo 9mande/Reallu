@@ -1,0 +1,244 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <header>
+    <div class="navbar navbar-dark bg-dark box-shadow">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <circle cx="12" cy="13" r="4"></circle>
+          <strong>Reallu: Course evaluation app</strong>
+        </a>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h7 class="text-center"
+          ><b>Current account: </b><span id="current_account"></span
+        ></h7>
+      </div>
+
+      <div class="card border-dark mb-3">
+        <div class="card-body text-dark">
+          <h4>
+            Course Name: <b><span id="course_name"></span> </b>
+          </h4>
+          <br />
+          <span id="num-student"></span> students registered.
+          <br />
+          <span id="num-token"></span> students completed.
+          <br />
+          Total rating: <span id="total-rating-text"></span>
+        </div>
+      </div>
+
+      <!-- display: block for demonstrating -->
+      <div
+        class="card border-danger mb-3"
+        id="for_instructor"
+        style="display: block"
+      >
+        <div class="card-body text-danger">
+          <p>[!] For instructor [!]<br />Enter address for certification.</p>
+          <div class="row" id="address_div">
+            <div style="margin-left: 15px; margin-top: 10px">
+              <span><b>Address : </b></span>
+              <input
+                type="text"
+                style="width: 400px"
+                id="enter_address_ctf"
+                placeholer="Enter an address"
+              />
+              <button class="btn btn-info" type="button" id="certificate">
+                Certificate
+              </button>
+            </div>
+          </div>
+          <div class="row" id="token_info" style="display: none">
+            Token Address:
+            <span id="token_address"></span>
+            Token Id:
+            <span id="token_id"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border-info mb-3" id="for_register">
+        <div class="card-body">
+          <p>If you're first, please register.</p>
+          <div class="row" id="address_div">
+            <div style="margin-left: 15px; margin-top: 10px">
+              <span><b>Address : </b></span>
+              <input
+                type="text"
+                style="width: 400px"
+                id="enter_address_reg"
+                placeholer="Enter an address"
+              />
+              <button class="btn btn-info" type="button" id="register">
+                Register
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="schedulesRow" class="col"></div>
+    </div>
+
+    <div id="scheduleTemplate" style="display: none">
+      <div class="card mb-2">
+        <div class="card-header">
+          <h5 class="card-title" style="text-align: left"></h5>
+        </div>
+        <div class="card-body">
+          <div class="panel-body row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <p id="detail" class="card-text"></p>
+            </div>
+            <div
+              class="col-sm-12 col-md-3 col-lg-3 text-center align-self-center"
+            >
+              <ul class="list-group">
+                <li class="list-group-item">Rating</li>
+                <li class="list-group-item">
+                  <span id="evaluation" data-id="0"></span>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="col-sm-12 col-md-3 col-lg-3 text-center align-self-center"
+            >
+              <button
+                class="btn btn-default btn-startevaluate"
+                style="background-color: aquamarine"
+                type="button"
+                data-id="0"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Evaluate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Your evaluation:</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <span>Each refers to score 1~5. </span>
+            <!-- Toggle Button -->
+            <div
+              class="btn-group"
+              role="group"
+              aria-label="Basic radio toggle button group"
+            >
+              <input
+                type="radio"
+                value="1"
+                class="btn-check"
+                name="btnradio"
+                id="1"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="1">Very bad</label>
+
+              <input
+                type="radio"
+                value="2"
+                class="btn-check"
+                name="btnradio"
+                id="2"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="2">Bad</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="3"
+                autocomplete="off"
+                checked
+              />
+              <label class="btn btn-outline-primary" for="3">Soso</label>
+
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="4"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="4">Good</label>
+              <input
+                type="radio"
+                class="btn-check"
+                name="btnradio"
+                id="5"
+                autocomplete="off"
+              />
+              <label class="btn btn-outline-primary" for="5">Very Good</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary btn-evaluate"
+              data-bs-dismiss="modal"
+            >
+              Complete
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" style="padding-top: 20px">
+      <div
+        id="info-section"
+        class="row"
+        style="font-size: 20px; text-align: center; display: block"
+      ></div>
+      <br />
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+    <!-- Include custom JavaScript file -->
+    <script src="js/evaluation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/truffle-contract@4.0.6/dist/truffle-contract.min.js"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+  </body>
+</html>

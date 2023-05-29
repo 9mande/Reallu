@@ -1,0 +1,167 @@
+{
+  "courseName": "web3@kaist",
+  "schedules": [
+    {
+      "id": 0,
+      "title": "Lecture 00 - Course Overview & Class Community Overview",
+      "details": "In this lecture, we overview the course and the class community. Then we are going to address the history of the web in order to understand the background of the emergence of Web3. Exploring various Web3 definitions, we define Web3 from a user data perspective.",
+      "voteCount": 0
+    },
+    {
+      "id": 1,
+      "title": "Lecture 01 - Introduction to Web3 & Blockchain",
+      "details": "In this lecture, we overview the course and the class community. Then we are going to address the history of the web in order to understand the background of the emergence of Web3. Exploring various Web3 definitions, we define Web3 from a user data perspective.",
+      "voteCount": 0
+    },
+    {
+      "id": 2,
+      "title": "Lecture 02 - Web3 stack and applications",
+      "details": "We'll give a general preview of the Web3 stack, and then look at examples of Web3 apps that are solving real-world problems to see how they've used the Web3 stack. Finally, we look at the dark side of Web3, blockchain, and crypto, giving advice on how to approach Web3.",
+      "voteCount": 0
+    },
+    {
+      "id": 3,
+      "title": "Lecture 03 - Blockchain 101 - Bitcoin",
+      "details": "In this lecture, you'll learn the basics of blockchain technology with Bitcoin. You'll cover the history of the technology from E-cash to Bitcoin to Ethereum, learn about blockchain data structures, learn about cryptography basics, and cover Bitcoin's Nakamoto Consensus and Mining, peer-to-peer networks, and security.",
+      "voteCount": 0
+    },
+    {
+      "id": 4,
+      "title": "Lecture 04 - Blockchain 101 - Ethereum",
+      "details": "In this lecture, we'll cover Ethereum technology. We'll explain the difference between Bitcoin's UTXO model and Ethereum's Account model, and Ethereum's behavior as a state transition system. We will also address the structure and behavior of transactions and smart contracts. The difference between PoW and PoS is covered technically, and the accountable safety of PoS is discussed.",
+      "voteCount": 0
+    },
+    {
+      "id": 5,
+      "title": "Lecture 05 - Blockchain Technology: Advanced",
+      "details": "Limitations of layer-1 blockchains (e.g., Bitcoin, Ethereum)",
+      "voteCount": 0
+    },
+    {
+      "id": 6,
+      "title": "Lecture 06 - Building and Operating a Public Blockchain: Engineering Perspective",
+      "details": "Building and operating a public blockchain (mainnet) requires various knowledge and skills in computer science and involves many technical challenges. In this talk, I will introduce the technology and diverse challenges required for the development and operation of the mainnet, and explain how it is implemented in reality and what problems are being solved through the example of Klaytn. I will also share the lessons the Klaytn team has learned through the experience of mainnet development and operation over the past five years.",
+      "voteCount": 0
+    },
+    {
+      "id": 7,
+      "title": "Lecture 07 - Smart Contract & Programming Solidity",
+      "details": "In this lecture, he talked about his career path, how he joined Ethereum Foundation, and what's Ethereum ethos. Then, he walked through the detail of Ethereum execution layer such as Merkle Patricia Tree, block structure, state trie, transations, etc. ",
+      "voteCount": 0
+    },
+    {
+      "id": 8,
+      "title": "Lecture 08 - KAIST Bitcoin: Solidity Live Coding",
+      "details": "In this lecture, he presented live coding to implement Bitcoin over Ethereum with Solidity.",
+      "voteCount": 0
+    },
+    {
+      "id": 9,
+      "title": "Lecture 09 - Building Dapp: From Design to Deployment",
+      "details": "This lecture covers the entire process for developing a dapp. We'll cover a seven-step process, starting with design, followed by smart contract development, web app development, phased deployment and testing to different environments (local, testnet, mainnet). It uses online voting as an example and shows the process of developing a Dapp based on truffle and web3.js.",
+      "voteCount": 0
+    },
+    {
+      "id": 10,
+      "title": "Lecture 10 Building Dapp: Under the hood",
+      "details": "In this lesson, you will learn how to create a Token Dapp using hardhat and ethers.js. You will follow the seven steps learned in the previous lesson to develop, deploy, and test it. We'll also take a closer look at ethers.js, an ethereum javascript library that is essential for web app development. Finally, we'll cover the principles of how web apps and contracts work by sending and receiving transactions. Here, you'll learn how bytecode, ABI, JSON-RPC, transactions, and more work.",
+      "voteCount": 0
+    },
+    {
+      "id": 11,
+      "title": "Lecture 11 Web3 Security",
+      "details": "To provide a comprehensive understanding of potential security risks in the Web3 ecosystem, we will look at various threat ",
+      "voteCount": 0
+    },
+    {
+      "id": 12,
+      "title": "Lecture 12 Real World Incidents & Hands on exerciese",
+      "details": "We will review real-world examples of security incidents that have occurred in the past, emphasizing the importance of adopting robust security practices to prevent similar incidents in the future. We aim to equip developers with the knowledge and tools necessary to build secure and reliable Web3 applications.",
+      "voteCount": 0
+    },
+    {
+      "id": 13,
+      "title": "Lecture 13 Metaeconomics: Web3 Economy",
+      "details": "We explore the decentralized economic system that underpins the decentralized web, or Web3.0. Unlike Web 2.0, dominated by centralized platforms, Web 3 is built on decentralized networks that enable interactions between users incentived by blockchain technology.",
+      "voteCount": 0
+    },
+    {
+      "id": 14,
+      "title": "Lecture 14 Community and Governance in Web3",
+      "details": "We will cover the new economic system shaped by the community 3.0, explore how and why web3 is set up for the improved governance and organizational design for the future by discussing DAOs, its technology and human interactions.",
+      "voteCount": 0
+    },
+    {
+      "id": 15,
+      "title": "Lecture 15 Developing ERC20 fungible assets",
+      "details": "The lecture will explain how to create an ERC20-based fungible asset. As a case study, we'll create an ERC20 governance token and use it to build community governance.",
+      "voteCount": 0
+    },
+    {
+      "id": 16,
+      "title": "Lecture 16 The Evolution of Decentralized Finance(DeFi)",
+      "details": "A look into the history of how decentralized finance has evolved on the Ethereum blockchain. The lecture will also touch on things that are only possible on decentralized finance but not in traditional finance.",
+      "voteCount": 0
+    },
+    {
+      "id": 17,
+      "title": "Lecture 17 Developing NFT(Npn-fungible Token) and SBT(Soulbound Token)",
+      "details": "In this lecture, we'll explore the standard ERCs for NFT and SBT and cover the development of issuing NFTs and SBTs. We will also cover applications that utilize NFTs and SBTs as examples.",
+      "voteCount": 0
+    },
+    {
+      "id": 18,
+      "title": "Lecture 18 The dawn of NFT financialization and its ecosystem.",
+      "details": "NFT is not a pretty jpeg anymore. It's becoming a crucial financial primitive and unique asset class. We will walk through the evolution of NFT financialization and its impact on the Web3",
+      "voteCount": 0
+    },
+    {
+      "id": 19,
+      "title": "Lecture 19 Developing Governance",
+      "details": "In this lecture, we will explore several topics related to governance. First I will start with how to set up role-based access control to a smart contract, which is the crucial component for governance by a contract. Then, I'll talk about on-chain and off-chain governance in blockchain and how to implement on-chain governance with OpenZeppelin governance contracts. Lastly, I'll address how to upgrade a smart contract with a proxy pattern.",
+      "voteCount": 0
+    },
+    {
+      "id": 20,
+      "title": "Lecture 20 Building the Open NFT Metaverse",
+      "details": "What is the open Metaverse? Why blockchain for Metaverse? Who are the brands and communities already in the Metaverse? What makes virtual lands valuable in the Metaverse? What opportunities are available in the Metaverse? Where do we go from there and how to get involved?",
+      "voteCount": 0
+    },
+    {
+      "id": 21,
+      "title": "Lecture 21 Introduction to Web3 games",
+      "details": "What distinguishes traditional Web2 Games from Web3 Games? What problems on traditional games we can solve with web3? In this session, we will delve into the paradigm of Web3 gaming. We'll be sharing a historical perspective on the evolution of game types based on my real-world experiences in the gaming industry. Following that, we'll explore the future of 'Play and Own'. We will have an in-depth look at numerous Web3 games and discuss the perspectives we should adopt when approaching these types of games in the future.",
+      "voteCount": 0
+    },
+    {
+      "id": 22,
+      "title": "Lecture 22 DAOs: The what, why, and how",
+      "details": "DAOs can fundamentally alter the way we organize to deliver products and services. Many people are confused what DAOs are, and what they are not. We define DAOs, and from this definition will dive into the major logics driving when, why, and how DAOs will success or fail. We will go through a number of examples, as well as get an understanding of what the latest thinking and trends in the space are, including opportunities to contribute to the DAO space.",
+      "voteCount": 0
+    },
+    {
+      "id": 23,
+      "title": "Lecture 23 Insights from 8 Years of Designing for Web3 Products",
+      "details": "In this talk, YoungHwi, co-founder and designer of Hunt Town, will share his expertise in Web3 product design to discuss the challenges associated with Web3 products and the insights he has gained. He will provide practical advice for venturing into the Web3 space and highlight important aspects that need to be considered.",
+      "voteCount": 0
+    },
+    {
+      "id": 24,
+      "title": "Lecture 24 How to Bring AI to Web 3.0",
+      "details": "Expanding the horizons of Web3.0, the lecture delves into AI-driven NFTs, AI Network DAOs, and GPU resource management within containers. The lecture will based on practical experience in building and deploying containerized AI applications on the blockchain, while also creating dynamic NFTs and utilizing DAOs for strategic decision-making. Lastly, the lecture highlights the optimization of GPU resources for large AI computations, and prompt engineering for generative AI.",
+      "voteCount": 0
+    },
+    {
+      "id": 25,
+      "title": "Lecture 25 Top final projects presentation",
+      "details": "The six top final projects(3 from a web3 app prototype and 3 from a Web3 startup proposal) will present their results. Attendees and VCs provide feedback on the results.",
+      "voteCount": 0
+    },
+    {
+      "id": 26,
+      "title": "Lecture 26 Web3 startup building & class wrap-up",
+      "details": "This lecture covers how to build a Web3 startup and raise investment. Then we'll wrap up the entire class and summarize the key takeaways. After the class, we'll have time for networking.",
+      "voteCount": 0
+    }
+  ]
+}
