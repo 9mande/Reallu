@@ -49,7 +49,7 @@ App = {
   },
 
   initContract: function () {
-    $.getJSON("../evaluation-contract/build/contracts/Evaluation.json", function (data) {
+    $.getJSON("../public/Evaluation.json", function (data) {
       var artifact = data;
       App.contracts.evaluation = TruffleContract(artifact);
       App.contracts.evaluation.setProvider(App.web3Provider);
