@@ -8,7 +8,7 @@ App = {
   scheduleID: null,
 
   init: function () {
-    $.getJSON("../schedules.json")
+    $.getJSON("public/schedules.json")
       .done(function (data) {
         $("#course_name").text(data["courseName"]);
         var schedulesRow = $("#schedulesRow");
