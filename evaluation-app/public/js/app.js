@@ -8,7 +8,7 @@ App = {
   scheduleID: null,
 
   init: function () {
-    $.getJSON("./public/schedules.json")
+    $.getJSON("schedules.json")
       .done(function (data) {
         $("#course_name").text(data["courseName"]);
         var schedulesRow = $("#schedulesRow");
@@ -49,7 +49,7 @@ App = {
   },
 
   initContract: function () {
-    $.getJSON("../public/Evaluation.json", function (data) {
+    $.getJSON("Evaluation.json", function (data) {
       var artifact = data;
       App.contracts.evaluation = TruffleContract(artifact);
       App.contracts.evaluation.setProvider(App.web3Provider);
